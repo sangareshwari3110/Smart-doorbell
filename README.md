@@ -177,7 +177,7 @@ All detection screenshots and results are stored in the **outputs/** folder.
 
 ## 👩‍💻 Author
 
-**Sansi**  
+**Sangareshwari A**  
 AI Engineer | Computer Vision | IoT Systems
 
 ---
@@ -190,5 +190,4 @@ If you like this project, please ⭐ star the repository and share it!
 
 ## 📜 License
 
-This project is open-source and available under the **MIT License**.
-
+This project is intended for educational, research, and safety-focused prototyping.
