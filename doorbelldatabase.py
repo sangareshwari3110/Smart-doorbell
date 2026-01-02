@@ -79,24 +79,24 @@ def save_face_to_db(category, name, frame, encoding):
 
 
 # ---------------- MQTT CONFIG ----------------
-BROKER = "172.16.0.122"
+BROKER = "MQTT IP"
 PORT = 1883
 TOPIC = "doorbell/command"
-USERNAME = "bms"
-PASSWORD = "bms@123"
+USERNAME = "username"
+PASSWORD = "password"
 
 client = mqtt.Client()
 client.username_pw_set(USERNAME, PASSWORD)
 client.connect(BROKER, PORT, 60)
 
 # ---------------- EMAIL CONFIG ----------------
-SENDER_EMAIL = "sangareshwari3110@gmail.com"
-APP_PASSWORD = "mpkqxjyrehtbmfff"
-RECEIVER_EMAIL = "sangareshwari3110@gmail.com"
+SENDER_EMAIL = "example@gmail.com"
+APP_PASSWORD = "KEY"
+RECEIVER_EMAIL = "receiver0@gmail.com"
 
 
 
-SERVER_IP = "172.16.0.109"
+SERVER_IP = "your ip"
 SERVER_PORT = 5000
 
 # ---------------- EMAIL ALERT ----------------
