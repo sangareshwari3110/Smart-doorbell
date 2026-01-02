@@ -10,18 +10,18 @@ from email.mime.multipart import MIMEMultipart
 DB_PATH = "doorbell.db"
 
 # ---------------- CONFIG ----------------
-BROKER = "172.16.0.122"  # MQTT broker
+BROKER = "MQTT IP"  # MQTT broker
 PORT = 1883
 TOPIC = "doorbell/command"
 
-USERNAME = "bms"
-PASSWORD = "bms@123"
+USERNAME = "USERNAME"
+PASSWORD = "PASSWORD"
 
-SENDER_EMAIL = "sangareshwari3110@gmail.com"
-APP_PASSWORD = "mpkqxjyrehtbmfff" #yintiudpvrghplok
-RECEIVER_EMAIL = "sangareshwari3110@gmail.com"
+SENDER_EMAIL = "example@gmail.com"
+APP_PASSWORD = "KEY" #yintiudpvrghplok
+RECEIVER_EMAIL = "receive@gmail.com"
 
-SERVER_IP = "172.16.0.109"
+SERVER_IP = "your ip"
 SERVER_PORT = 5000
 
 
